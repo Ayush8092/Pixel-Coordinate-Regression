@@ -1,0 +1,31 @@
+Libraries:
+numpy==1.26.4
+matplotlib==3.8.2
+scikit-learn==1.4.0
+tensorflow==2.15.0
+opencv-python==4.9.0.80
+
+
+Installation Instructions:
+
+This project requires Python 3.9+ and the following dependencies.
+
+### Step 1: Create Virtual Environment:)
+
+python -m venv venv
+source venv/bin/activate      # Linux / Mac
+venv\Scripts\activate         # Windows
+
+
+Step 2: Install Required Packages
+pip install -r requirements.txt
+ 
+
+Step 3: Verify Installation
+import tensorflow as tf
+import numpy as np
+import matplotlib.pyplot as plt
+import sklearn
+import cv2
+
+print("All dependencies installed successfully!")
