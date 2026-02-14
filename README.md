@@ -3,7 +3,6 @@ CNN based supervised regression system to accurately localize a single bright pi
 
 Pixel Coordinate Regression using Convolutional Neural Networks (CNN)
 
- 
 1. Project Overview
 
 This project implements a deep learning-based pixel localization system that predicts the (x, y) coordinates of a bright pixel inside a grayscale image using a Convolutional Neural Network (CNN).
